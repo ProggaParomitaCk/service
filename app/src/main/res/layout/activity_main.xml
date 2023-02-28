@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/www"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Smart Sylhet App!"
+        android:textColor="@color/black"
+        android:paddingTop="200dp"
+        android:textSize="29sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="visit"
+        android:textSize="35sp"
+        android:textColor="@color/white"
+        android:id="@+id/btn2"
+        android:layout_marginTop="290dp"
+        android:backgroundTint="@color/material_dynamic_neutral40"
+        />
+
+</RelativeLayout>
